@@ -1,132 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt">
+<!doctype html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>International Church Lagos</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      color: #333;
-    }
-    header {
-      background: #111;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      margin-top: 1rem;
-      text-align: center;
-    }
-    nav button {
-      margin: 0 10px;
-      padding: 8px 16px;
-      cursor: pointer;
-      background: #ddd;
-      border: none;
-      border-radius: 5px;
-    }
-    .hero {
-      background: url('https://acasadacidade.com/wp-content/uploads/2023/07/home-bg-scaled.jpg') center/cover no-repeat;
-      height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 0 0 10px black;
-      font-size: 2rem;
-      text-align: center;
-    }
-    .section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #111;
-      color: white;
-    }
-    a {
-      color: #00aaff;
-      text-decoration: none;
-    }
-  </style>
+  <title>International Christian Community - ICC LAGOS</title>
 </head>
+
 <body>
-  <header>
-    <h1>International Church Lagos</h1>
-    <nav>
-      <button onclick="changeLang('pt')">Português</button>
-      <button onclick="changeLang('en')">English</button>
-      <button onclick="changeLang('es')">Español</button>
-    </nav>
-  </header>
-
-  <div class="hero">
-    <span id="hero-text">Uma comunidade cristã internacional em Lagos.</span>
-  </div>
-
-  <section class="section">
-    <h2 id="about-title">Sobre nós</h2>
-    <p id="about-text">Somos uma igreja internacional acolhedora localizada em Lagos, Portugal. Nosso coração é servir a Deus e acolher pessoas de todas as nações.</p>
-
-    <h2 id="location-title">Localização</h2>
-    <p id="location-text">Tv. de Santo Amaro 5, Lagos</p>
-
-    <h2 id="contact-title">Contato</h2>
-    <p id="contact-text">Telefone: 915 808 490</p>
-    <p><a id="fb-link" href="https://www.facebook.com/p/International-Christian-Community-ICC-LAGOS-100064773245583/" target="_blank">Facebook Oficial</a></p>
-  </section>
-
-  <footer>
-    &copy; 2025 International Church Lagos
-  </footer>
-
-  <script>
-    const content = {
-      pt: {
-        hero: "Uma comunidade cristã internacional em Lagos.",
-        aboutTitle: "Sobre nós",
-        aboutText: "Somos uma igreja internacional acolhedora localizada em Lagos, Portugal. Nosso coração é servir a Deus e acolher pessoas de todas as nações.",
-        locationTitle: "Localização",
-        locationText: "Tv. de Santo Amaro 5, Lagos",
-        contactTitle: "Contato",
-        contactText: "Telefone: 915 808 490"
-      },
-      en: {
-        hero: "An international Christian community in Lagos.",
-        aboutTitle: "About Us",
-        aboutText: "We are a welcoming international church located in Lagos, Portugal. Our heart is to serve God and embrace people from all nations.",
-        locationTitle: "Location",
-        locationText: "Tv. de Santo Amaro 5, Lagos",
-        contactTitle: "Contact",
-        contactText: "Phone: 915 808 490"
-      },
-      es: {
-        hero: "Una comunidad cristiana internacional en Lagos.",
-        aboutTitle: "Sobre nosotros",
-        aboutText: "Somos una iglesia internacional acogedora ubicada en Lagos, Portugal. Nuestro corazón es servir a Dios y recibir a personas de todas las naciones.",
-        locationTitle: "Ubicación",
-        locationText: "Tv. de Santo Amaro 5, Lagos",
-        contactTitle: "Contacto",
-        contactText: "Teléfono: 915 808 490"
-      }
-    };
-
-    function changeLang(lang) {
-      document.getElementById('hero-text').innerText = content[lang].hero;
-      document.getElementById('about-title').innerText = content[lang].aboutTitle;
-      document.getElementById('about-text').innerText = content[lang].aboutText;
-      document.getElementById('location-title').innerText = content[lang].locationTitle;
-      document.getElementById('location-text').innerText = content[lang].locationText;
-      document.getElementById('contact-title').innerText = content[lang].contactTitle;
-      document.getElementById('contact-text').innerText = content[lang].contactText;
-    }
-  </script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
+
 </html>

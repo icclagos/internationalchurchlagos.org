@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Christian Community - Lagos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #003366;
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 80px;
+    }
+    main {
+      padding: 40px;
+      background-color: rgba(0, 0, 0, 0.6);
+      max-width: 800px;
+      margin: auto;
+      border-radius: 10px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .contact {
+      margin-top: 30px;
+      font-size: 1.1em;
+    }
+    .contact p {
+      margin: 10px 0;
+    }
+    a {
+      color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./logo.jpg" alt="ICC Logo">
+    <h1>International Christian Community</h1>
+  </header>
+  <main>
+    <h2>Horário de Funcionamento</h2>
+    <p><strong>Quarta:</strong> 17:30 às 18:30</p>
+    <p><strong>Domingo:</strong> 11:00 às 12:00</p>
+
+    <div class="contact">
+      <h2>Contato</h2>
+      <p><strong>Localização:</strong> Tv. de Santo Amaro 5, 8600-767 Lagos</p>
+      <p><strong>Coordenadas:</strong> 37.1038074, -8.6781391</p>
+      <p><strong>Telefone:</strong> +351 915 808 490</p>
+      <p><strong>Email:</strong> daniel@internationalchurchlagos.org</p>
+      <p><strong>Website:</strong> <a href="https://www.internationalchurchlagos.org">www.internationalchurchlagos.org</a></p>
+    </div>
+  </main>
+</body>
+</html>
